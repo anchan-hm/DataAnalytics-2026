@@ -1,0 +1,46 @@
+1. Before doing any other investigation, list two or three questions that this infographic 
+and explanation of methodology raise in your mind.
+- If they compiled a list from sources like Bustle, The Recipe, and Beanstalk Mums; Did they use those to compare to the Google Trends?
+- When searching for high search interest, did they show trends for certain times of the year to show maybe it was just more desirable for weather instead of heartbreaks?
+
+
+2. Where can you find Google Trends search data? Provide the URL. 
+February 2024 to February 2025 - Explore - Google Trends
+
+3. The article concluded that “milkshakes take the crown as the ultimate breakup food, 
+topping the list in six states.” Pull up Google Trends data on Milkshake (beverage) and 
+change the date range to February 1, 2024, through February 28, 2025.
+a) What is the highest peak recorded in the line chart for “Interest over time”? 
+-100, during Feb 2-8, 2025, and Feb 23-March 1, 2025
+b) What is the lowest dip recorded?
+	- 61, Dec 22 – 28, 2024
+
+4. At the top next to the box for “Milkshake,” there is a plus sign to add another search term. Click the plus sign to add a search for Hamburger (Food). 
+a) What is the highest peak recorded for searches using Hamburger? What is the lowest dip?
+	- 100, May 26 – Jun 1, 2024
+ b) What happened to the line for Milkshake? What do the high and low look like now? 
+	- 18, Nov 24 – 30, 2024
+5. Why did the line for Milkshake change? Hint: Click on the icon next to “Interest over time” for more information about how trend results are displayed.
+- Adding another variable to compare it to the original item, changed the line because there is not enough data to support it. The timeframe is also different compared to before.
+
+6. Add a third term to your search, this time for Breakup (Topic). 
+a) Do you see any patterns that suggest a relationship between searches for Breakup and Hamburger? 
+	- When the Breakups spiked up, Hamburgers would spike up also
+ b) How about between Breakup and Milkshake? 
+	- They both were close enough together but were having a steady parallel 
+
+7. What does all of this suggest about the reliability of the conclusions reached in the article?
+	- It suggested that it is not reliable at all, the information they gave did not align with what was shown in Google Trends
+
+8. At the upper right of Google Trends, click on the link for “Back to Classic Explore.”
+Notice that this view includes a section for “Compared breakdown by subregion.”
+ a) What was the top state by interest for Milkshake? 
+	-  27, during Feb 2 – 8, 2025 and Feb 23 – Mar 1, 2025
+b) What was the top state by interest for Hamburger?
+	- 100, during Mat 26 – Jun, 2024
+
+10. OPTIONAL: Spend a little more time exploring Google Trends results for other “breakup foods” listed in the article. Some more food for thought: 
+a) What are the differences you notice between searching for between searching for a term as a “search term” versus as a categorical term? What thoughts does this raise in your mind about working with Google Trends data? ? For example, compare “Milkshake (beverage)” to “Milkshake (search term)”, then compare “Hamburger (Food)” to “Burger (search term)” 
+	- I think adding the categorical term gives it more description and allows use to pin point exactly what we are looking for, instead of just the search term because it leaves it up for interpretation whether it is just what is said instead.
+a) Try comparing “Hamburger (Food)” to some search terms oriented toward pop culture or current events. For instance, you might compare to “football” or “olympics.” What do you notice? What do you think other patterns in search behavior might represent?
+	- I noticed that hamburgers are not that popular during the peaks of these events.
