@@ -1,0 +1,42 @@
+1. Start by reviewing the data.gov home page. What is this?
+- It is a place to help us find data, tools, and resources to conduct research
+
+2. Go to Most Viewed Datasets. How many datasets are listed?
+- 402,360
+
+3. Find the Topic Category for Human Health. Review the range of data sources
+available for this topic. Why do you think these were tagged with the Human Health
+category?
+- The has 50 results. It shows that these are very important topics because these are still an issue we are currently dealing with and it has a very large effect on our well-being as humans.
+
+4. Go to the Food Price Outlook. Review the catalog page for this dataset. How can you
+navigate to additional datasets from the USDA?
+- You scroll down further until you reach "Metadata Source". Once you are there, you will see "Harvested from USDA JSON". Clicking on it will allow you to access more datasets to this.
+
+5. Go back to the data.gov home page. This time, click on Datasets by Organization.
+
+6. Try searching for your city, county, and state. What organizations are returned?
+- City of Charlotte: 0
+
+7. Search for USDA, and click into the result. Within the USDA datasets, search for food
+composition. Notice that the top three results are all datasets concerning nutrition
+information. Try searching the USDA page for nutrition. How does that affect your
+results?
+- Because I did not specify clear enough.
+
+a) One of the tricky things about working with data is that sometimes the terminology
+used by a data source is not obvious. You may need to dig around and be creative
+to find what you’re looking for.
+
+8. Go back to the results for food composition, and click on FoodData Central. Review
+the catalog page for this data source, then click on the button for Visit Page. Take
+some time to explore the FoodData Central website.
+
+a) Try searching for butter, or any of your favorite foods. What kind of results do you
+get? What happens when you click on a result?
+- There were different tabs for data and the descriptions. It gives you more search options with dates, categories and types of butter.
+
+b) Go back to the home page. Find Foundation Foods, and click on Downloads. What
+kind of data can you find on this page? How big are these files? Where can you find
+more information on the data types available?
+- You can find different types of data in CSV and JSON files with the time of year for them. How large the file is when it is zipped or unzipped. Supporting data that that have been archived. You can look further down the page to find more information on the types of data that are available.
