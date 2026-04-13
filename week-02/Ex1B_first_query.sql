@@ -1,0 +1,3 @@
+/*
+Sakila is a database used to collect information about movies and and crew members for use by investors.
+*/
