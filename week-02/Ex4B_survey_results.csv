@@ -1,0 +1,34 @@
+﻿form_id,start_time,completion_time,time_to_complete,email,name,drink_type,temperature,drink_style,syrups,drink_quality,wait_time,visit_again,phone_number
+1,04/07/2026 13:26:14,04/07/2026 13:29:12,02:58,anonymous,,I only drink water;,Hot,Lattes;,Honey;,1,1,1,
+2,04/07/2026 14:22:09,04/07/2026 14:23:00,00:51,anonymous,,I only drink water;,Cold,Lattes;,Maple;Seasonal Syrups;,1,2,1,911
+3,04/07/2026 22:47:40,04/07/2026 22:48:22,00:42,anonymous,,Tea;,Hot,Loose Leaf Tea;,Honey;,5,5,5,
+4,04/07/2026 23:46:33,04/07/2026 23:48:12,01:39,anonymous,,I only drink water;,Cold,Drip;Pour Over;Cold Brew;Espresso;Cortado;Lattes;Loose Leaf Tea;,Vanilla;Caramel (w/Dairy);Mocha;Maple;Honey;Simple Syrup;Seasonal Syrups;None;,1,1,1,We are gonna send  you to the beach that makes you old!
+5,04/08/2026 09:48:26,04/08/2026 09:49:11,00:45,anonymous,,Coffee;,Cold,Lattes;,Caramel (w/Dairy);,5,4,5,67
+6,04/08/2026 11:13:18,04/08/2026 11:15:12,01:54,anonymous,,Tea;Coffee;,Hot,Pour Over;Cortado;Loose Leaf Tea;Lattes;,Honey;,5,5,5,2409991000
+7,04/08/2026 13:27:18,04/08/2026 13:27:49,00:31,anonymous,,Tea;,Hot,Loose Leaf Tea;,None;,5,5,5,456HAM
+8,04/08/2026 13:41:13,04/08/2026 13:41:43,00:30,anonymous,,Coffee;,Cold,Lattes;,Caramel (w/Dairy);Vanilla;,5,5,5,980-229-1593
+9,04/08/2026 14:28:23,04/08/2026 14:31:01,02:38,anonymous,,Tea;,Cold,Lattes;Loose Leaf Tea;,Vanilla;Caramel (w/Dairy);Maple;,4,3,5,000-000-0000
+10,04/08/2026 22:32:55,04/08/2026 22:33:21,00:26,anonymous,,Coffee;,Cold,Espresso;Cold Brew;Lattes;,Vanilla;,5,5,5,
+11,04/09/2026 06:56:08,04/09/2026 06:57:32,01:24,anonymous,,Coffee;,Hot,Espresso;,Vanilla;Caramel (w/Dairy);,5,3,5,
+12,04/09/2026 11:37:49,04/09/2026 11:38:13,00:24,anonymous,,Tea;,Hot,Cortado;,Mocha;,5,5,5,5454545454
+13,04/09/2026 11:31:58,04/09/2026 11:45:38,13:40,anonymous,,Tea;,Hot,Pour Over;,Caramel (w/Dairy);,5,5,1,718-704-2959
+14,04/09/2026 11:47:12,04/09/2026 11:51:23,04:11,anonymous,,Coffee;Tea;,Cold,Pour Over;,None;,5,2,5,201-192-6969
+15,04/09/2026 12:14:32,04/09/2026 12:14:54,00:22,anonymous,,Tea;,Cold,Loose Leaf Tea;,Simple Syrup;,5,5,5,
+16,04/09/2026 12:14:57,04/09/2026 12:15:31,00:34,anonymous,,Coffee;,Hot,Cold Brew;,Mocha;Vanilla;,5,4,5,
+17,04/09/2026 12:17:49,04/09/2026 12:18:19,00:30,anonymous,,Coffee;,Hot,Cortado;,Vanilla;Seasonal Syrups;Simple Syrup;,5,5,5,
+18,04/09/2026 12:18:31,04/09/2026 12:19:35,01:04,anonymous,,Tea;,Cold,Loose Leaf Tea;Lattes;,Simple Syrup;Seasonal Syrups;,5,5,5,
+19,04/09/2026 12:20:34,04/09/2026 12:20:57,00:23,anonymous,,Tea;Coffee;,Cold,Lattes;Cold Brew;Loose Leaf Tea;,Vanilla;Mocha;Simple Syrup;Seasonal Syrups;,5,5,5,
+20,04/09/2026 12:21:02,04/09/2026 12:21:22,00:20,anonymous,,Tea;,Cold,Cold Brew;Lattes;Loose Leaf Tea;,Vanilla;Mocha;Simple Syrup;Seasonal Syrups;,5,5,5,
+21,04/09/2026 12:22:26,04/09/2026 12:22:48,00:22,anonymous,,Tea;Coffee;,Cold,Cold Brew;Lattes;Loose Leaf Tea;,Vanilla;Mocha;Simple Syrup;Seasonal Syrups;,5,5,5,
+22,04/09/2026 12:24:09,04/09/2026 12:24:31,00:22,anonymous,,Coffee;Tea;,Cold,Cold Brew;Lattes;Loose Leaf Tea;,Vanilla;Simple Syrup;Seasonal Syrups;Mocha;,5,5,5,
+23,04/09/2026 12:25:13,04/09/2026 12:25:33,00:20,anonymous,,Tea;,Cold,Lattes;Loose Leaf Tea;,Simple Syrup;Seasonal Syrups;,5,5,5,
+24,04/09/2026 12:26:10,04/09/2026 12:26:28,00:18,anonymous,,Tea;,Cold,Lattes;Loose Leaf Tea;,Simple Syrup;Seasonal Syrups;,5,5,5,
+25,04/09/2026 12:26:49,04/09/2026 12:27:01,00:12,anonymous,,Tea;,Cold,Lattes;Loose Leaf Tea;,Simple Syrup;Seasonal Syrups;,5,5,5,
+,,,01:30,,,16,16,1,11,4.48,4.2,4.36,
+,,,,,,11,9,4,6,,,,
+,,,,,,3,0.36,7,7,,,,
+,,,,,,27,,3,3,,,,
+,,,,,,,,4,4,,,,
+,,,,,,,,16,11,,,,
+,,,,,,,,14,11,,,,
+,,,,,,,,,3,,,,
