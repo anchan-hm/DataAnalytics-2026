@@ -58,3 +58,9 @@ WHERE s.CompanyName = 'Tokyo Traders';
 
 -- 6) How many employees work at northwind? What employees have "manager"
 -- somewhere in their job title? Write queries to answer each question.
+SELECT * FROM employees;
+SELECT COUNT(EmployeeID) FROM employees;
+
+SELECT EmployeeID, FirstName, LastName, Title
+FROM employees
+WHERE Title LIKE '%manager%';
