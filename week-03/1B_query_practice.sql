@@ -13,16 +13,16 @@ FROM products
 WHERE UnitPrice <= 7.50;
 
 -- 3) What are the products that we carry where we have no units on hand, but 1 or more
--- units are on backorder? Write a query that answers this question.
--- Gorgonzola Telino. 
+-- units are on backorder? Gorgonzola Telino.
+-- Write a query that answers this question. 
 SELECT UnitsInStock, UnitsOnOrder, ProductName
 FROM products
 WHERE UnitsInStock = 0
 	AND UnitsOnOrder > 0;
 
 -- 4) Examine the products table. How does it identify the type (category) of each item sold? Through CategoryID.
--- Where can you find a list of all categories? Write a set of queries to answer these
--- questions, ending with a query that creates a list of all the seafood items we carry.
+-- Where can you find a list of all categories? In the catergories table.
+-- Write a set of queries to answer these questions, ending with a query that creates a list of all the seafood items we carry.
 SELECT CategoryID, CategoryName, Description FROM categories;
 SELECT ProductID, ProductName, CategoryID FROM products;
 
@@ -38,9 +38,9 @@ INNER JOIN categories AS c
 WHERE c.CategoryName = 'Seafood'
 ORDER BY p.ProductName;
 
--- 5) Examine the products table again. How do you know what supplier each product comes from?
--- Where can you find info on suppliers? Write a set of queries to find the
--- specific identifier for "Tokyo Traders" and then find all products from that supplier.
+-- 5) Examine the products table again. How do you know what supplier each product comes from? Through the SupplierID
+-- Where can you find info on suppliers? In the suppliers table.
+-- Write a set of queries to find the specific identifier for "Tokyo Traders" and then find all products from that supplier.
 SELECT ProductID, ProductName, SupplierID FROM products;
 SELECT SupplierID, CompanyName, ContactName FROM suppliers;
 
@@ -56,8 +56,9 @@ INNER JOIN suppliers AS s
 	ON p.SupplierID = s.SupplierID
 WHERE s.CompanyName = 'Tokyo Traders';
 
--- 6) How many employees work at northwind? What employees have "manager"
--- somewhere in their job title? Write queries to answer each question.
+-- 6) How many employees work at northwind? 9 workers
+-- What employees have "manager" somewhere in their job title? Steve Buchanan
+-- Write queries to answer each question.
 SELECT * FROM employees;
 SELECT COUNT(EmployeeID) FROM employees;
 
