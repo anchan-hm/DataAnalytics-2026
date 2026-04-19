@@ -23,6 +23,38 @@ WHERE UnitsInStock = 0
 -- 4) Examine the products table. How does it identify the type (category) of each item sold? Through CategoryID.
 -- Where can you find a list of all categories? Write a set of queries to answer these
 -- questions, ending with a query that creates a list of all the seafood items we carry.
-SELECT * FROM categories;
-SELECT * FROM products;
+SELECT CategoryID, CategoryName, Description FROM categories;
 SELECT ProductID, ProductName, CategoryID FROM products;
+
+SELECT p.ProductID, p.ProductName, c.CategoryName
+FROM products AS p
+INNER JOIN categories AS c
+	ON p.CategoryID = c.CategoryID;
+
+SELECT p.ProductID, p.ProductName, p.UnitPrice, c.CategoryName
+FROM products AS p
+INNER JOIN categories AS c
+	ON p.CategoryID = c.CategoryID
+WHERE c.CategoryName = 'Seafood'
+ORDER BY p.ProductName;
+
+-- 5) Examine the products table again. How do you know what supplier each product comes from?
+-- Where can you find info on suppliers? Write a set of queries to find the
+-- specific identifier for "Tokyo Traders" and then find all products from that supplier.
+SELECT ProductID, ProductName, SupplierID FROM products;
+SELECT SupplierID, CompanyName, ContactName FROM suppliers;
+
+SELECT SupplierID, CompanyName FROM suppliers
+WHERE CompanyName = 'Tokyo Traders';
+
+SELECT ProductID, ProductName, SupplierID FROM products
+WHERE SupplierID = 4;
+
+SELECT p.ProductID, p.ProductName, s.CompanyName
+FROM products AS p
+INNER JOIN suppliers AS s
+	ON p.SupplierID = s.SupplierID
+WHERE s.CompanyName = 'Tokyo Traders';
+
+-- 6) How many employees work at northwind? What employees have "manager"
+-- somewhere in their job title? Write queries to answer each question.
