@@ -28,3 +28,40 @@ ORDER BY UnitPrice DESC, ProductName ASC;
 -- 4) Write a query against the orders table that displays the total number of distinct
 -- customers who have placed orders, based on customer ID. Use an alias to label the
 -- count calculation as CustomerCount.
+SELECT COUNT(DISTINCT CustomerID) AS CustomerCount
+FROM orders;
+
+-- 5) Write a query against the orders table that displays the total number of distinct
+-- customers who have placed orders, by customer ID, for each country where orders
+-- have been shipped. Again, use an alias to label the count as CustomerCount. Order
+-- the list by the CustomerCount, largest to smallest.
+SELECT ShipCountry, COUNT(DISTINCT CustomerID) AS CustomerCount
+FROM orders
+GROUP BY ShipCountry
+ORDER BY CustomerCount DESC;
+
+-- 6) What are the products that we carry where we have less than 25 units on hand, but 1
+-- or more units of them are on order?
+-- Gorgonzola Telino, Sir Rodney's Scones, Louisiana Hot Spiced Okra, Longlife Tofu,
+-- Rogede sild, Scottish Longbreads, Mascarpone Fabioli, Maxilaku, Gravad lax,
+-- Aniseed Syrup, Chocolade, Outback Lager, Chang, Ipoh Coffee, Gnocchi di nonna Alice,
+-- Wimmers gute Semmelkndel, Queso Cabrales.
+-- Write a query that orders them by quantity on order (high to low), then by product name.
+SELECT ProductName, UnitsInStock, UnitsOnOrder
+FROM products
+WHERE UnitsInStock < 25 AND UnitsOnOrder >= 1
+ORDER BY UnitsOnOrder DESC, ProductName ASC;
+
+-- 7) Write a query to list each of the job titles in employees, along with a count of how
+-- many employees hold each job title.
+SELECT Title, Count(EmployeeID) AS EmployeeCount
+FROM employees
+GROUP BY Title;
+
+-- 8) What employees have a monthly salary that is between $2000 and $2500?
+-- Laura Callahan, Michael Suyama, Anne Dodsworth, Andrew Fuller.
+-- Write a query that orders them by job title.
+SELECT FirstName, LastName, Title, Salary
+FROM employees
+WHERE Salary BETWEEN 2000 AND 2500
+ORDER BY Title ASC;
