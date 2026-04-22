@@ -22,7 +22,7 @@ FROM products;
 -- 3) Write a query to find the price of the most expensive item that Northwind sells. Then
 -- write a second query to find the name of the product with that price, plus the name of
 -- the supplier for that product.
-SELECT MAX(UnitPrice) AS ExspensivePrice
+SELECT MAX(UnitPrice) AS ExpensivePrice
 FROM products;
 
 SELECT p.ProductName,
