@@ -28,3 +28,15 @@ my_name = "Alexus Chanthadara"
 birth_city = "Asheboro"
 
 print(my_name + " " + birth_city)
+
+
+#a) What is the full list of reserved words that can’t be used for variable names?
+# listed below
+import keyword
+print(keyword.kwlist)
+print(len(keyword.kwlist))
+
+
+#b) Pick 5 of these words and review the explanation for how it is used as a keyword in
+#Python. Add these 5 definitions as # comments to your exercise document. Put ^^
+#around any terms that you are not familiar with.
