@@ -26,6 +26,6 @@ total_debts = student_loans + credit_cards + personal_loans #calculating debts
 net_worth = total_assets - total_debts
 
 # displaying outputs
-print("Your total assets are " + str(total_assets))
-print("Your total debts are " + str(total_debts))
-print("Your net worth is " + str(net_worth))
+print("Your total assets are " + str(total_assets)) # 213000
+print("Your total debts are " + str(total_debts)) # 3830
+print("Your net worth is " + str(net_worth)) # 209170
