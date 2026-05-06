@@ -17,7 +17,11 @@ total_due = food_cost + tax + tip
 # the str() is used to turn integers into text and be able to be part of a message
 
 # practice complicated output for print statement
-print("Food cost is " + str(food_cost) + " and tax is " + str(tax)) # 79.25, plus 6.54 tax
+print("Food cost is " + str(food_cost) + " and tax is " + str(tax))
+
 # print("Tip is " + str(tip))
-print("Tip is " + format(tip, ".2f")) # 12.00
-print("Total due is " + str(total_due)) # 97.79
+print("Tip is " + format(tip, ".2f"))
+print("Total due is " + str(total_due))
+# Food cost is 79.25 and tax is 6.54
+# Tip is 12.00
+# Total due is 97.79
