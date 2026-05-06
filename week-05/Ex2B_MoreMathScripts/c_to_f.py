@@ -5,3 +5,4 @@ fahrenheit = (celsius*(9/5))+32 #formula for c to f
 
 #displaying the results
 print(f"{celsius} degrees Celsius is {fahrenheit:.2f} degrees Fahrenheit")
+# 20 degrees Celsius is 68.00 degrees Fahrenheit
