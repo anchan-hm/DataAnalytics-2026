@@ -24,7 +24,7 @@ for index, item in enumerate(reversed(fav_food), start=1):
     else:
         print(index, ".", item)
 #output: Reversed order:
-#        1 . papaya salad
+#        1 . papaya salad <- new top pick!
 #        2 . pho
 #        3 . miso soup
 #        4 . beef bowl
