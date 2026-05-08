@@ -8,7 +8,7 @@ for word in great:
     print("Loops are", word + "!")
 
 # final print when loop is finished
-print("I <3 Loops")
+print("I <3 loops")
 #output: Loops are amazing!
 #        Loops are awesome!
 #        Loops are excellent!
