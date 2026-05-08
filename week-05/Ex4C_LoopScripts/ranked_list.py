@@ -19,7 +19,10 @@ for index, item in enumerate(fav_food, start=1):  #starting at 1
 # BONUS: reverse order
 print("\nReversed order:") # "\n" to start a new line (added space between lists)
 for index, item in enumerate(reversed(fav_food), start=1):
-    print(index, ".", item)
+    if index == 1:
+        print(index, ".", item, "<- new top pick!")
+    else:
+        print(index, ".", item)
 #output: Reversed order:
 #        1 . papaya salad
 #        2 . pho
