@@ -32,4 +32,4 @@ else:
 
 # 3e
 print("The final value of x is", x, "and the final value of y is", y)
-#otuput: The final value of x is 20 and the final value of y is 20
+#output: The final value of x is 20 and the final value of y is 20
