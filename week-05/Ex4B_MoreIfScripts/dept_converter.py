@@ -14,7 +14,9 @@ elif code == 12:
     print("Department:", "Legal")
 elif code == 18:
     print("Department:", "IT")
-else:
+elif code == 20:
     print("Department:", "Customer Relations")
+else:
+    print("No department under this code")
 
 #output: Department: Legal
