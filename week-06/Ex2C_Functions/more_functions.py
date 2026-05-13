@@ -69,3 +69,31 @@ print()
 #output: Total Due: $100
 #        Amount Paid: $60
 #        Remaining Balance: $40
+
+#BONUS:
+#creating mailing label to use two lines
+def display_mailing_label2(name, address1, address2, city, state, zip): #label with 2 addresses
+    print(name) #display name
+    print(address1) #display first address
+
+    if address2: #print if there is another address
+        print(address2) #display second address
+    
+    print(f"{city}, {state} {zip}") #display rest of mailing label
+
+#testing modification (1)
+# two addresses
+display_mailing_label2("Alexus Chanthadara", "123 Elevate", "Apt 1A", "Charlotte", "NC", "12345") 
+print() #blank line
+#output: Alexus Chanthadara
+#        123 Elevate
+#        Apt 1A
+#        Charlotte, NC 12345
+
+#testing modification (2)
+# one address
+display_mailing_label2("John Doe", "111 Mystery Ln", "", "Abyss", "NA", "11111")
+print() #blank line
+#output: John Doe
+#        111 Mystery Ln
+#        Abyss, NA 11111
