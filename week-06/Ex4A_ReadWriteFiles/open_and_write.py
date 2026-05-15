@@ -1,6 +1,6 @@
 # creating variable to use open function
 
-# creating about_me.txt to replace
+# creating about_me.txt and adding
 f = open("about_me.txt", "a") # adding file if missing
 
 # adding perfect night out
